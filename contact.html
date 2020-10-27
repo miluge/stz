@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.6/tailwind.min.css"
+          integrity="sha512-l7qZAq1JcXdHei6h2z8h8sMe3NbMrmowhOl+QkP3UhifPpCW2MC4M0i26Y8wYpbz1xD9t61MLT9L1N773dzlOA=="
+          rel="stylesheet"/>
+    <script
+            defer
+            src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js"
+    ></script>
+    <title>STZ Design Studio</title>
+</head>
+<body class="bg-white">
+<!-- Top Bar Nav -->
+<!-- component -->
+<div class="antialiased bg-gray-100 dark-mode:bg-gray-900">
+    <div class="w-full text-current-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800">
+        <div class="flex flex-col px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8"
+             x-data="{ open: false }">
+            <div class="flex flex-row items-center justify-between p-4">
+                <img alt="logo" class="p-6" height="150px" src="src/image-001.png" width="150px">
+                <button @click="open = !open" class="md:hidden">
+                    <svg class="w-6 h-6" fill="black" viewBox="0 0 20 20">
+                        <path clip-rule="evenodd"
+                              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                              fill-rule="evenodd" x-show="!open"></path>
+                        <path clip-rule="evenodd"
+                              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                              fill-rule="evenodd" x-show="open"></path>
+                    </svg>
+                </button>
+            </div>
+            <nav :class="{'flex': open, 'hidden': !open}"
+                 class="flex-col flex-grow hidden pb-4 pr-6 md:pb-0 md:flex md:justify-end md:flex-row">
+                <a class="px-4 py-2 mt-2 text-xl font-light"
+                   href="index.html">Home</a>
+                <a class="px-4 py-2 mt-2 text-xl font-light"
+                   href="portfolio.html">Portfolio</a>
+                <a class="px-4 py-2 mt-2 text-xl font-light"
+                   href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- End Bar Nav -->
+<!-- Main -->
+<main class="flex justify-center items-center py-12 text-white">
+    <!-- component -->
+    <form class="w-full max-w-lg">
+        <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full px-3">
+                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+                    Name
+                </label>
+                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                       id="nick" type="text">
+            </div>
+        </div>
+        <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full px-3">
+                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+                    E-mail
+                </label>
+                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                       id="email" type="email">
+            </div>
+        </div>
+        <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full px-3">
+                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+                    Message
+                </label>
+                <textarea
+                        class="resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+                        id="message"></textarea>
+            </div>
+        </div>
+        <div class="md:flex justify-center md:items-center">
+            <div>
+                <button class="shadow bg-gray-400 hover:bg-gray-400 focus:shadow-outline focus:outline-none text-black font-bold py-2 px-4 rounded"
+                        type="button">
+                    Send
+                </button>
+            </div>
+        </div>
+    </form>
+</main>
+<!-- End Main -->
+<!-- Footer -->
+<footer class="bg-black flex items-center justify-center text-white h-64">
+    <img class="h-20" src="src/logo-inverted.png">
+</footer>
+<!-- End Footer -->
+<script>
+    const url = location.href.split("/"); //replace string with location.href
+    let navLinks = document.getElementsByTagName("nav")[0].getElementsByTagName("a");
+    //naturally you could use something other than the <nav> element
+    let i = 0;
+    let currentPage = url[url.length - 1];
+    for (i; i < navLinks.length; i++) {
+        let lb = navLinks[i].href.split("/");
+        if (lb[lb.length - 1] === currentPage) {
+            navLinks[i].classList.add("font-bold");
+
+        }
+    }
+</script>
+</body>
+</html>
