@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="960483cf-46d0-414d-8221-971160d5a2bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/&amp;.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/&amp;.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image-001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image-001.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logo-inverted.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Guillaume Blondel" />
+        <option value="miluge" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jSMR508z1CAqN149QSpL0AT5XN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gllmb\PhpstormProjects\stz\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gllmb\PhpstormProjects\stz\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="960483cf-46d0-414d-8221-971160d5a2bf" name="Default Changelist" comment="" />
+      <created>1603793028105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603793028105</updated>
+      <workItem from="1603793029134" duration="753000" />
+      <workItem from="1603793795791" duration="13229000" />
+    </task>
+    <task id="LOCAL-00001" summary="add alpine.js">
+      <created>1603793893717</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603793893717</updated>
+    </task>
+    <task id="LOCAL-00002" summary="nav page highlight">
+      <created>1603802426381</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603802426381</updated>
+    </task>
+    <task id="LOCAL-00003" summary="reformat JS">
+      <created>1603807500240</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603807500240</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add alpine.js" />
+    <MESSAGE value="nav page highlight" />
+    <MESSAGE value="finish wireframe" />
+    <MESSAGE value="reformat JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="reformat JS" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Deployment" timestamp="1603793747175">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1603793747175" />
+    <state x="585" y="3" key="CommitChangelistDialog2" timestamp="1603807499383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="3" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603807499383" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1603793532203">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603793532203" />
+    <state x="790" y="171" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1603793800988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="171" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603793800988" />
+    <state x="761" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603807620908">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603807620908" />
+  </component>
+</project>

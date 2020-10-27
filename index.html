@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.6/tailwind.min.css"
+          integrity="sha512-l7qZAq1JcXdHei6h2z8h8sMe3NbMrmowhOl+QkP3UhifPpCW2MC4M0i26Y8wYpbz1xD9t61MLT9L1N773dzlOA=="
+          rel="stylesheet"/>
+    <script
+            defer
+            src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js"
+    ></script>
+    <title>STZ Design Studio</title>
+</head>
+<body class="bg-white">
+<!-- Top Bar Nav -->
+<!-- component -->
+<div class="antialiased bg-gray-100 dark-mode:bg-gray-900">
+    <div class="w-full text-current-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800">
+        <div class="flex flex-col px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+            <div class="flex flex-row items-center justify-between p-4">
+                <img alt="logo" class="p-6" height="150px" src="src/image-001.png" width="150px">
+            </div>
+            <nav
+                    class="flex-col flex-grow hidden pb-4 pr-6 md:pb-0 md:flex md:justify-end md:flex-row">
+                <a class="px-4 py-2 mt-2 text-2xl md:text-sm font-light"
+                   href="index.html">Home</a>
+                <a class="px-4 py-2 mt-2 text-2xl md:text-sm font-light"
+                   href="portfolio.html">Portfolio</a>
+                <a class="px-4 py-2 mt-2 text-2xl md:text-sm font-light"
+                   href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- End Bar Nav -->
+<!-- Main -->
+<main>
+    <section class="flex justify-center items-center  h-screen bg-black text-white">
+        <div>
+            <p class="text-6xl font-bold">WEBDESIGN</p>
+        </div>
+    </section>
+    <section class="flex justify-center items-center h-screen bg-white text-black inline-block">
+        <div class="flex">
+            <div class="flex flex-col justify-end">
+                <img alt="Branding and Identity" class="h-24 mb-1" src="src/&.png">
+            </div>
+            <div class="-mb-0">
+                <p class="text-6xl leading-none font-extrabold">
+                    BRANDING
+                    <br>
+                    <span class="ml-3 leading-none">IDENTITY</span>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="flex justify-center items-center h-screen bg-black text-white">
+        <div>
+            <p class="text-6xl leading-none font-bold text-center">PACKAGE <br> DESIGN</p>
+        </div>
+    </section>
+    <section class="flex justify-center items-center h-screen bg-white text-black">
+        <div>
+            <p class="text-6xl font-bold">ADVERTISING</p>
+        </div>
+    </section>
+</main>
+<!-- End Main -->
+<!-- Footer -->
+<footer class="bg-black flex items-center justify-center text-white h-64">
+    <img class="h-20" src="src/logo-inverted.png">
+</footer>
+<!-- End Footer -->
+<script>
+    const url = location.href.split("/"); //replace string with location.href
+    let navLinks = document.getElementsByTagName("nav")[0].getElementsByTagName("a");
+    //naturally you could use something other than the <nav> element
+    let i = 0;
+    let currentPage = url[url.length - 1];
+    for (i; i < navLinks.length; i++) {
+        let lb = navLinks[i].href.split("/");
+        if (lb[lb.length - 1] === currentPage) {
+            navLinks[i].classList.add("font-bold");
+
+        }
+    }
+</script>
+</body>
+</html>
