@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="960483cf-46d0-414d-8221-971160d5a2bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
     </list>
@@ -61,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603793028105</updated>
       <workItem from="1603793029134" duration="753000" />
-      <workItem from="1603793795791" duration="14868000" />
+      <workItem from="1603793795791" duration="15176000" />
     </task>
     <task id="LOCAL-00001" summary="add alpine.js">
       <created>1603793893717</created>
@@ -112,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603808232015</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="responsive navbar">
+      <created>1603809329286</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603809329286</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +131,8 @@
     <MESSAGE value="reformat JS" />
     <MESSAGE value="add files" />
     <MESSAGE value="change font size navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="change font size navbar" />
+    <MESSAGE value="responsive navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsive navbar" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -134,18 +141,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1603793747175" />
-    <state x="585" y="3" key="CommitChangelistDialog2" timestamp="1603808231453">
+    <state x="585" y="3" key="CommitChangelistDialog2" timestamp="1603809328659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="3" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603808231453" />
+    <state x="585" y="3" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603809328659" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1603793532203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603793532203" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1603808301504">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1603809334231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603808301504" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603809334231" />
     <state x="790" y="171" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1603793800988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
